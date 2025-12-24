@@ -14,17 +14,20 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main */
-nav {
-  padding: 24px 42px; 
+.navbar {
+  padding: 24px 42px !important; 
 }
 
-.hero-div {
-    margin: 58px 56px;
-}
+
 
 /* Hero */
 .hero-content {
   max-width: 620px;
+  padding-top: 58px;
+}
+
+.hero-content img {
+  padding-top: 42px;
 }
 
 .hero-content h4 {
