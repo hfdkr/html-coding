@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 58px 0;
 }
 
-.hero-content img {
+.hero img {
   padding: 42px 42px;
 }
 
@@ -49,13 +49,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-  border-radius: 0;
   padding-inline: 64px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* Clients */
 .clients {
-  padding: 46px 68px;
+  padding: 42px 68px;
 }
 
 /* services */
