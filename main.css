@@ -57,6 +57,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .clients {
   padding: 46px 68px;
 }
+<<<<<<< HEAD
+=======
+h5{
+
+}
+>>>>>>> 873ff2e1b433a76eabd0868a6af4a206c776bafd
 
 /* services */
 .services {
@@ -78,6 +84,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 12px;
 }
 
+
 /* Footer */
 .footer-content {
   max-width: 570px;
@@ -86,3 +93,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .footer-content p {
   margin-bottom: 42px;
 }
+
+.section-4{
+  background-color: #F3F3F3;
+}
+
