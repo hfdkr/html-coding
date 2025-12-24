@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* genetal style */
+
 body {
   font-family: "Epilogue", sans-serif;
   color: #2D2D2D;
@@ -11,6 +13,31 @@ body {
 
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+
+h1 {
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+   line-height: 42px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 42px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 
@@ -32,17 +59,6 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 42px 42px;
 }
 
-.hero-content h4 {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.hero-content h1 {
-  font-weight: 600;
-  font-size: 68px;
-  line-height: 100%;
-}
 
 .content-text {
   gap: 24px;
@@ -77,9 +93,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .serv-text h3 {
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 42px;
   margin-bottom: 12px;
 }
 
@@ -95,13 +108,6 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Footer */
 .footer {
   padding: 42px 0 86px;
-}
-
-.footer h2 {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 24px;
-  line-height: 42px;
 }
 
 .footer-content {
