@@ -3,7 +3,16 @@
 
 body {
   font-family: "Epilogue", sans-serif;
+  color: #2D2D2D;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 /* Main */
 nav {
   padding: 24px 42px; 
@@ -11,4 +20,30 @@ nav {
 
 .hero-div {
     margin: 58px 56px;
+}
+
+/* Hero */
+.hero-content {
+  max-width: 620px;
+}
+
+.hero-content h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.hero-content h1 {
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 100%;
+}
+
+.content-text {
+  gap: 24px;
+}
+
+.hero-content button {
+  border-radius: 0;
+  padding-inline: 64px;
 }
