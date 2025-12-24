@@ -13,6 +13,8 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+
+
 /* Main */
 .navbar {
   padding: 24px 42px !important; 
@@ -76,3 +78,11 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 12px;
 }
 
+/* Footer */
+.footer-content {
+  max-width: 570px;
+}
+
+.footer-content p {
+  margin-bottom: 42px;
+}
