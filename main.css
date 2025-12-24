@@ -23,11 +23,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* Hero */
 .hero-content {
   max-width: 620px;
-  padding-top: 58px;
+  padding: 58px 0;
 }
 
 .hero-content img {
-  padding-top: 42px;
+  padding: 42px;
 }
 
 .hero-content h4 {
@@ -50,3 +50,9 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   padding-inline: 64px;
 }
+
+/* Clients */
+.clients {
+  padding: 46px 68px;
+}
+
