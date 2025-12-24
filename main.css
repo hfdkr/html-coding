@@ -84,6 +84,11 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 12px;
 }
 
+/* Gallery */
+.gallery {
+  padding-block: 42px;
+}
+
 
 /* Footer */
 .footer {
