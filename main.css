@@ -42,21 +42,26 @@ h4 {
 
 
 
-/* Main */
+/* Header */
 .navbar {
-  padding: 24px 42px !important; 
+  padding: 24px 18px !important; 
 }
 
+.navbar-brand {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
 
+/* Main */
 
 /* Hero */
 .hero-content {
   max-width: 620px;
-  padding: 58px 0;
 }
 
-.hero img {
-  padding: 42px 42px;
+.hero {
+  padding: 42px 56px;
 }
 
 
