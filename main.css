@@ -48,7 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 24px;
 }
 
-.hero-content button {
+.button {
   border-radius: 0;
   padding-inline: 64px;
 }
@@ -80,6 +80,17 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 /* Footer */
+.footer {
+  padding: 42px 0 86px;
+}
+
+.footer h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  line-height: 42px;
+}
+
 .footer-content {
   max-width: 570px;
 }
@@ -90,5 +101,13 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .section-4{
   background-color: #F3F3F3;
+}
+
+.footer input[type="text"] {
+  background-color: #F3F3F3;
+}
+
+.footer:first-child input {
+  margin-bottom: 12px;
 }
 
