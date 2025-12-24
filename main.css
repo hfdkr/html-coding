@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -5,5 +6,9 @@ body {
 }
 /* Main */
 nav {
-  padding: 24px 42px;
+  padding: 24px 42px; 
+}
+
+.hero-div {
+    margin: 58px 56px;
 }
