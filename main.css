@@ -28,8 +28,8 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 58px 0;
 }
 
-.hero-content img {
-  padding: 42px;
+.hero img {
+  padding: 42px 42px;
 }
 
 .hero-content h4 {
@@ -48,18 +48,24 @@ p, h1, h2, h3, h4, h5, h6 {
   gap: 24px;
 }
 
-.hero-content button {
-  border-radius: 0;
+.button {
   padding-inline: 64px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* Clients */
 .clients {
-  padding: 46px 68px;
+  padding: 42px 68px;
 }
 /* services */
+
 .services {
-  padding: 42px 0;
+  padding-block: 42px;
+}
+
+.card-serv {
+  padding: 64px 42px;
 }
 
 .services img {
@@ -77,8 +83,27 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 12px;
 }
 
+/* Gallery */
+.gallery {
+  padding-block: 42px;
+}
+.section-4{
+  margin-left: 20px;
+
+}
 
 /* Footer */
+.footer {
+  padding: 42px 0 86px;
+}
+
+.footer h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  line-height: 42px;
+}
+
 .footer-content {
   max-width: 570px;
 }
@@ -89,5 +114,13 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .section-4{
   background-color: #F3F3F3;
+}
+
+.footer input[type="text"] {
+  background-color: #F3F3F3;
+}
+
+.footer:first-child input {
+  margin-bottom: 12px;
 }
 
