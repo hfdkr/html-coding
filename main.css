@@ -56,3 +56,23 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 46px 68px;
 }
 
+/* services */
+.services {
+  padding: 42px 0;
+}
+
+.services img {
+  margin-bottom: 42px;
+}
+
+.serv-text {
+  max-width: 310px;
+}
+
+.serv-text h3 {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 42px;
+  margin-bottom: 12px;
+}
+
