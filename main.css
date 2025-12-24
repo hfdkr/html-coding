@@ -120,9 +120,13 @@ h4 {
 
 .footer input[type="text"] {
   background-color: #F3F3F3;
+  max-width: 520px;
 }
 
-.footer:first-child input {
+.footer input:first-child {
   margin-bottom: 12px;
 }
 
+.footer input[type="button"] {
+  margin-left: 18px;
+}
