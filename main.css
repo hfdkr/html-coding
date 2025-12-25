@@ -82,7 +82,7 @@ h4 {
 /* services */
 
 .services {
-  padding-block: 42px;
+  padding: 42px 24px 42px;
 }
 
 .card-serv {
@@ -103,12 +103,17 @@ h4 {
 
 /* Gallery */
 .gallery {
-  padding-block: 42px;
+  padding: 42px 24px 42px;
+}
+
+/* .testimonial */
+.testimonial {
+  padding: 42px 24px 42px;
 }
 
 /* Footer */
 .footer {
-  padding: 42px 0 86px;
+  padding: 42px 24px 86px;
 }
 
 .footer-content {
@@ -125,13 +130,8 @@ h4 {
 
 .footer input[type="text"] {
   background-color: #F3F3F3;
-  max-width: 520px;
 }
 
 .footer input:first-child {
   margin-bottom: 12px;
-}
-
-.footer input[type="button"] {
-  margin-left: 18px;
 }
